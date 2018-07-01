@@ -4,11 +4,7 @@ import API from "../utils/API";
 
 import moment from "moment";
 
-
-
 class Saved extends Component {
-
-
 
   state = {
 
@@ -16,15 +12,11 @@ class Saved extends Component {
 
   }
 
-
-
   componentDidMount() {
 
     this.getSavedArticles();
 
   }
-
-
 
   getSavedArticles = () => {
 
@@ -35,8 +27,6 @@ class Saved extends Component {
       .catch(err => console.log(err))
 
   }
-
-
 
   deleteArticle = id => {
 

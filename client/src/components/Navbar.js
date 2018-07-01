@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => (
 
-  <nav className="navbar navbar-expand-lg navbar-light bg-light">
+  <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
 
     <NavLink className="navbar-brand" to="/">NYT React Search</NavLink>
 

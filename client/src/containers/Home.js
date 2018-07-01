@@ -102,7 +102,7 @@ class Home extends Component {
 
           <div className="row align-items-center justify-content-center my-5">
 
-            <h1>Welcome to the NYT Article Search (with React)!</h1>
+            <h1>Welcome to the NYT Article Search!</h1>
 
           </div>
 
@@ -140,7 +140,7 @@ class Home extends Component {
 
                     className="form-control mb-2"/>
 
-                  <button type="submit" className="btn btn-block btn-success" onClick={this.articleSearch}>
+                  <button type="submit" className="btn btn-block btn-primary" onClick={this.articleSearch}>
 
                     Submit
 
